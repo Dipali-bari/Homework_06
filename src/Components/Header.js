@@ -6,10 +6,11 @@ import { BsInstagram } from 'react-icons/bs';
 function Header(){
     return(
        <div>
-        <div style={{display:"flex",justifyContent:"space-around",backgroundColor:"#CAE5F5",height:"50px",alignItems:"center"}}>
+        <div style={{display:"flex",justifyContent:"space-around",backgroundColor:"#CAE5F5",height:"70px",alignItems:"center"}}>
             <div style={{marginLeft:"-40PX",color:"#62727B"}}><h1>LOGO</h1></div>
-            <div style={{display:"flex",justifyContent:"space-between",width:"20%",color:"#62727B",cursor:"pointer"}}>
-                <a>Home </a>
+            <div style={{ fontWeight:"bold"
+            ,display:"flex",justifyContent:"space-between",width:"20%",color:"black",cursor:"pointer"}}>
+                <a href="#" style={{textDecoration:"none"}}>Home </a>
                 <a>About as</a>
                 <a>Contact</a>
             </div>
